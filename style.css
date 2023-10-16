@@ -99,3 +99,22 @@ p {
 section.right ul {
   margin-left: 1rem;
 }
+
+main.no-flex {
+  display: block;
+}
+
+.player h4 {
+  color: dodgerblue;
+  font-size: 1.5rem;
+}
+.player h5 {
+  color: darkgreen;
+  font-size: 1.05rem;
+}
+
+.player {
+  margin: 2rem;
+  border: 1px solid orange;
+  padding: 0.5rem;
+}
