@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ma Shan Zheng", cursive;
+}
+/* 清除所有HTML的默认配置 */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header div.top {
+  padding: 1rem;
+  background-image: url("./images/background.png");
+  background-position: top;
+  background-size: cover;
+}
+
+head div.top h1 {
+  font-size: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  background-color: black;
+}
+
+header nav ul li {
+  padding: 0.8rem 1.2rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.active {
+  color: yellow;
+}
+
+header nav ul li a:hover {
+  color: yellow;
+}
